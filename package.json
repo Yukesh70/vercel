@@ -1,0 +1,27 @@
+{
+  "name": "payment-gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "dependencies": {
+    "@testing-library/react": "^16.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "razorpay": "^2.9.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
